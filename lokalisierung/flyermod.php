@@ -56,32 +56,31 @@ function FlyerRendering ($inputFile, $outputPostfix, $anschnitt)
 
 
     // Community Name fuer Hauptseite
-    $communityNameText = "Freifunk Duckburg";
+    $communityNameText = "Freifunk Nord";
     $communityNameFontSize = 48.0;        //in pt
     $communityNamePositionOffsetX = 0.0;  // +/- in mm
     $communityNamePositionOffsetY = 0.0;  // +/- in mm
 
     // Logo auf Kontaktseite
-    $kontaktLogoDateiName = "logo-template.png";
-    $kontaktLogoWidth=66.25;    //in mm  // Muss kleiner 98.0 mm sein! Hier bitte die gewuenschte Breite des Logos auf dem Flyer eintragen. 
-    $kontaktLogoPositionY=47.0; //in mm  // Die Hoeheneinstellung ist etwas frickelig. Es klappt aber :-)
+    $kontaktLogoDateiName = "ffki-logo.png";
+    $kontaktLogoWidth=75.32;    //in mm  // Muss kleiner 98.0 mm sein! Hier bitte die gewuenschte Breite des Logos auf dem Flyer eintragen. 
+    $kontaktLogoPositionY=45.0; //in mm  // Die Hoeheneinstellung ist etwas frickelig. Es klappt aber :-)
 
     // Texte fuer Seite mit Kontaktdaten
     $kontaktTitelText = "Kontakt";
 
     $kontaktInfoTexte = [
-                        [ "Webseite" , "http://ffdb.freifunk.net"],
-                        [ "Mail" , "info@ff-duckburg.ffdb"],
-                        [ "Mailingliste" , "subscribe@ff-duckburg.ffdb"],
-                        [ "Twitter" , "@FreiFunkDB"],
-                        [ "Treffen" , "Jeden zweiten Montag"],
-                        [ "" , "Und wo? Siehe unsere Webseite"],
-                        [ "" , ""],
+                        [ "Webseite" ,      "http://nord.freifunk.net"],
+                        [ "Mailingliste" ,  "ffnord@freifunk.net"],
+                        [ "Twitter" ,       "@FreifunkNord"],
+                        [ "Treffen" ,       "Jeden 1. Montag im Attraktor in HH"],
+                        [ "" ,              "und 1. Do. in der Toppoint in Kiel"],
+                        [ "Online Chat" ,   "auf unserer Webseite!"],
                         [ "" , ""]
                         ];
 
     // Text Fusszeile
-    $kontaktFusszeileText ="Freifunk Duckburg e.V.";
+    $kontaktFusszeileText ="gerneriert mit: http://git.io/vCeFx";
 
 
 
